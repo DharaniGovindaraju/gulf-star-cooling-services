@@ -1,0 +1,56 @@
+/*.front-featured-services{
+	border: 1px solid gray;
+	
+}
+.front-featured-services img{
+	float: left;
+	padding: 5px;
+}
+.front-featured-services{
+	line-height: 25px;
+}*/
+.carousel{
+	margin-top: 7%;
+}
+.navbar .navbar-nav > li > a {
+	color: black;
+}
+.footer-black{
+	margin-top: 10%;
+	color: white;
+}
+/*.card{
+	background-color: #ccc7c7;
+}*/
+.text-details{
+	color: #232526;
+}
+.index-page .navbar-transparent{
+	border-bottom: 1px solid gray;
+}
+.gallery{
+	    margin: 1%;
+    border: 1px solid darkgrey;
+}
+#clients-list{
+	list-style: none;
+}
+#clients-list li{
+	    float: left;
+    max-width: 100%;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 2%;
+    border-radius: 25px;
+    border: 1px solid darkgrey;
+}
+#clients-list li p{
+	    margin: 5px auto;
+    font-weight: 500;
+}
+.locations{
+	margin-right: 1%;
+}
+.info{
+	padding:0;
+}
