@@ -19,9 +19,13 @@
 	margin-top: 10%;
 	color: white;
 }
-/*.card{
-	background-color: #ccc7c7;
-}*/
+blockquote{
+	background-color: #69676759;
+	border-left: 5px solid #494646;
+}
+h2,h3{
+	font-weight: bold;
+}
 .text-details{
 	color: #232526;
 }
@@ -54,3 +58,72 @@
 .info{
 	padding:0;
 }
+.project-category img {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 400;
+    height: 250;
+}
+.project-category {
+    text-align: center;
+}
+.project-category h3 {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    right: 10%;
+    background: rgba(255, 255, 255, 0.7);
+
+    padding: 10px;
+}
+div.project-listings {
+    display: block;
+    margin-bottom: 40px;
+}
+div.project-listings.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+div.project-listings table tbody td{
+	border: none;
+    font-size: 1.1em;
+        font-size: 13px;
+    font-weight: 500;
+    color: #3a3c41;
+    border: 1px solid #e0e0e0;
+    padding: 5px 7px;
+}
+div.project-listings table{
+    border: 1px solid #838B8B;
+    height: 255px;
+}
+div.project-listings table caption {
+    min-height: 4.5em;
+    background: #838B8B;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 120%;
+}
+div.project-listings table tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+div.project-listings table tbody tr {
+    border: none;
+}
+div.project-listings table th {
+    text-align: right;
+    font-size: 1.1em;
+    padding: 7px,15px;
+}
+div.project-listings table tbody td {
+    border: none;
+    font-size: 1.1em;
+}
+div.project-listings table tr:nth-child(even) {
+    background: #E0EEEE;
+}
+
