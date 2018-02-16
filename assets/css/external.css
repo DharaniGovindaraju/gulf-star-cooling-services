@@ -9,38 +9,77 @@
 .front-featured-services{
 	line-height: 25px;
 }*/
-.carousel{
-	margin-top: 7%;
+
+.carousel {
+    margin-top: 7%;
 }
-.navbar .navbar-nav > li > a {
-	color: black;
+
+.tales {
+    width: 100%;
 }
-.footer-black{
-	margin-top: 10%;
-	color: white;
+
+.navbar.navbar-transparent {
+    padding-top: 13px !important;
+    border-bottom: 0;
 }
-blockquote{
-	background-color: #69676759;
-	border-left: 5px solid #494646;
+
+.navbar,
+.navbar.navbar-default {
+    border-bottom: 0.55px solid #666 !important;
 }
-h2,h3{
-	font-weight: bold;
+
+.navbar .navbar-nav>li>a {
+    color: black;
 }
-.text-details{
-	color: #232526;
+
+.navbar .navbar-nav>li>a:hover {
+    background-color: #d61111;
+    color: #fff;
 }
-.index-page .navbar-transparent{
-	border-bottom: 1px solid gray;
+
+.section {
+    padding: 0;
 }
-.gallery{
-	    margin: 1%;
+
+.footer-black {
+    margin-top: 10%;
+    color: white;
+}
+
+
+/* .card .card-image {
+    height: 0;
+} */
+
+blockquote {
+    background-color: #69676759;
+    border-left: 5px solid #494646;
+}
+
+h2,
+h3 {
+    font-weight: bold;
+}
+
+.text-details {
+    color: #232526;
+}
+
+.index-page .navbar-transparent {
+    border-bottom: 1px solid gray;
+}
+
+.gallery {
+    margin: 1%;
     border: 1px solid darkgrey;
 }
-#clients-list{
-	list-style: none;
+
+#clients-list {
+    list-style: none;
 }
-#clients-list li{
-	    float: left;
+
+#clients-list li {
+    float: left;
     max-width: 100%;
     text-align: center;
     margin-right: 8px;
@@ -48,16 +87,25 @@ h2,h3{
     border-radius: 25px;
     border: 1px solid darkgrey;
 }
-#clients-list li p{
-	    margin: 5px auto;
+
+#clients-list li p {
+    margin: 5px auto;
     font-weight: 500;
 }
-.locations{
-	margin-right: 1%;
+
+.locations {
+    margin-right: 1%;
 }
-.info{
-	padding:0;
+
+iframe.iframes {
+    width: 540px;
+    height: 580px;
 }
+
+.info {
+    padding: 0;
+}
+
 .project-category img {
     position: relative;
     margin-top: 10px;
@@ -65,39 +113,45 @@ h2,h3{
     width: 400;
     height: 250;
 }
+
 .project-category {
     text-align: center;
 }
+
 .project-category h3 {
     position: absolute;
     top: 55%;
     left: 10%;
     right: 10%;
     background: rgba(255, 255, 255, 0.7);
-
     padding: 10px;
 }
+
 div.project-listings {
     display: block;
     margin-bottom: 40px;
 }
+
 div.project-listings.row {
     margin-right: -15px;
     margin-left: -15px;
 }
-div.project-listings table tbody td{
-	border: none;
+
+div.project-listings table tbody td {
+    border: none;
     font-size: 1.1em;
-        font-size: 13px;
+    font-size: 13px;
     font-weight: 500;
     color: #3a3c41;
     border: 1px solid #e0e0e0;
     padding: 5px 7px;
 }
-div.project-listings table{
+
+div.project-listings table {
     border: 1px solid #838B8B;
     height: 255px;
 }
+
 div.project-listings table caption {
     min-height: 4.5em;
     background: #838B8B;
@@ -106,24 +160,66 @@ div.project-listings table caption {
     padding: 10px;
     font-size: 120%;
 }
+
 div.project-listings table tbody {
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
 }
+
 div.project-listings table tbody tr {
     border: none;
 }
+
 div.project-listings table th {
     text-align: right;
     font-size: 1.1em;
-    padding: 7px,15px;
+    padding: 7px, 15px;
 }
+
 div.project-listings table tbody td {
     border: none;
     font-size: 1.1em;
 }
+
 div.project-listings table tr:nth-child(even) {
     background: #E0EEEE;
 }
 
+
+/* media query  for header */
+
+@media (min-width:768px) {
+    .navbar .navbar-brand {
+        height: 70px;
+    }
+    .navbar-right {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-header .navbar-toggle {
+        color: #d61111;
+    }
+    .carousel {
+        margin-top: 10%;
+    }
+    iframe.iframes {
+        width: 100%;
+        height: 340px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+    .carousel {
+        margin-top: 7rem;
+    }
+    .carousel-inner>.item>img {
+        height: 150px;
+    }
+    iframe.iframes {
+        width: 100%;
+        height: 200;
+    }
+}
